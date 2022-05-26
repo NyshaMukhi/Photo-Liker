@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Liker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+</head>
+<body>
+    <div id="d1">
+        <h1> Photo Liker </h1>
+    </div>
+    <img src="dog.jpg" id="dogimage">
+    <div id="d2">
+        <label> Border Color </label> <br>
+        <input id="bc"> <br> <br>
+        <label> Border Style </label> <br>
+        <input id="bs"> <br> <br>
+        <label> Border Width </label> <br>
+        <input id="bw" placeholder="Enter the border width in pixels."> <br> <br>
+        <label> Image Height </label> <br> 
+        <input id="ih" placeholder="Enter the image height in pixels."> <br> <br>
+        <label> Image Width </label> <br>
+        <input id="iw" placeholder="Enter the image width in pixels."> <br> <br>
+        <button id="acbutton" onclick="cip()"> Apply Changes </button>
+    </div>
+    <div id="d3">
+        <button id="lb" onclick="likeincrease()" > </button>
+        <button id="db" onclick="likedecrease()"> </button>
+        Likes- <label id="ll"> 0 </label>
+    </div>
+    <div id="d4"> 
+        <label id="cl"> So Cute!!!!</label>
+        <input id="nci">
+        <button id="commentb" onclick="addcomment()"> </button>
+    </div>
+</body>
+</html>

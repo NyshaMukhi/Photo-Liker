@@ -1,0 +1,64 @@
+#d1{
+    text-align:center;
+    background-color: navajowhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    margin-top: -35px;
+}
+#commentb{
+    background-image:url("send button.png");
+    height: 35px;
+    width: 35px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+#lb{
+    background-image:url("like button.jpg");
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#db{
+    background-image:url("dislike button.jpg");
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#d2{
+    width: fit-content;
+    height: fit-content;
+}
+img{
+    width: 350px;
+    height: 350px;
+    border-style: solid ;
+    border-width: 3px;
+    border-color: black;
+
+}
+input{
+    width: 200px;
+    height: 15px;
+    background-color:rgba(240, 230, 140, 0.753);
+}
+label{
+    color: rgb(2, 2, 14);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#acbutton{
+    background-color: mediumorchid;
+    border-color: black;
+    border-width: 2px;
+}
+#d2{
+    background-color: cornflowerblue;
+    height: 370px;
+    width:260px;
+    margin-left:700px ;
+    margin-top: -350px;
+}
+
+
